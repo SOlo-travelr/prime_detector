@@ -7,7 +7,7 @@ bool isPrime(int n) {
         if (n % i == 0) return false;
     return true;
 }
-
+// this is the main function that calls the isprime function
 int main() {
     int number;
     cout << "Enter a number: ";
