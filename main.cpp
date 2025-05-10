@@ -8,6 +8,7 @@ bool isPrime(int n) {
     return true;
 }
 // this is the main function that calls the isprime function
+
 int main() {
     int number;
     cout << "Enter a number: ";
@@ -18,5 +19,7 @@ int main() {
     else
         cout << number << " is not a prime number." << endl;
 
+    // check the feasibility of the non-prime number
+    
     return 0;
 }
