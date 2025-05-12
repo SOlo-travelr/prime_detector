@@ -20,6 +20,11 @@ int main() {
         cout << number << " is not a prime number." << endl;
 
     // check the feasibility of the non-prime number
-    
+    // this is a comment
+    if (!isPrime(number)) {
+        cout << "The number is not prime, so it is feasible." << endl;
+    } else {
+        cout << "The number is prime, so it is not feasible." << endl;
+    }
     return 0;
 }
